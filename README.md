@@ -15,7 +15,7 @@
 
 ## Mis Ab Muhammed Unais
 
-**Full Stack Developer · AI Builder · Web Developer**
+**Student · AI Enthusiast · Developer**
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-misab1204-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/misab1204)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-misab1204-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mis-ab-m)

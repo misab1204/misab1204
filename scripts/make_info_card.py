@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
 
-W, H = 480, 376
+W, H = 480, 420
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
@@ -47,21 +47,23 @@ HOST = "misab1204"   # shown as  misab1204@github  in the header
 
 ROWS = [
     ("host",),
-    ("kv", "Now", "Full Stack Developer @ DIZIVER"),
+    ("kv", "Now", "Student, passionate about AI"),
     ("kv", "Focus", "AI-powered SaaS & Modern Web Apps"),
-    ("kv", "Edu", "Assam, India"),
+    ("kv", "Edu", "Dubai, UAE (ongoing)"),
     ("gap",),
     ("sec", "Stack"),
     ("kv", "Frontend", "React, Next.js, TypeScript, Tailwind, Framer Motion"),
     ("kv", "Backend", "Node.js, Express, Prisma, Firebase"),
-    ("kv", "Database", "MongoDB, SQLite, PostgreSQL"),
-    ("kv", "AI / ML", "Gemini API, OpenAI, SSE-streaming"),
+    ("kv", "Database", "SQLite, PostgreSQL"),
+    ("kv", "AI / ML", "Gemini API, OpenAI"),
     ("kv", "Cloud", "Firebase, Vercel, Netlify"),
     ("gap",),
     ("sec", "Highlights"),
-    ("bul", "Nexus AI — Perplexity-style Search & Research SaaS"),
-    ("bul", "Anonym — Zero-Knowledge Encrypted Messaging"),
-    ("bul", "Openify — Desktop Music Player with Retro UI"),
+    ("bul", "abaya-park-pos-demo — Feature-rich POS Program"),
+    ("bul", "EmojiFlow — Upcoming project"),
+    ("bul", "MeeM — Upcoming project"),
+    ("bul", "QuizMakr — Upcoming project"),
+    ("bul", "trAIner — Upcoming project"),
 ]
 
 

@@ -13,13 +13,13 @@
 </tr>
 </table>
 
-## Mis Ab Muhammed Unais
+## Mis-ab Muhammed Unais
 
 **Student · AI Enthusiast · Developer**
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-misab1204-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/misab1204)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-misab1204-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mis-ab-m)
-[![Instagram](https://img.shields.io/badge/Instagram-misab1204-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mis_ab.m)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mis--ab--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mis-ab-m)
+[![Instagram](https://img.shields.io/badge/Instagram-mis__ab.m-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mis_ab.m)
 
 <br>
 

@@ -32,6 +32,6 @@
 <br>
 
 <!-- animated contribution graph, refreshed daily by the workflow -->
-<img src="https://raw.githubusercontent.com/misab1204/misab1204/main/contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
+<img src="https://raw.githubusercontent.com/misab1204/misab1204/main/contrib-heatmap.svg" width="860" loading="lazy" alt="GitHub contribution graph" />
 
 </div>

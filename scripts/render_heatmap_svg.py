@@ -101,18 +101,9 @@ def render(data):
     stats_h = 88
     canvas_h = TITLEBAR_H + TOP_LABEL_H + art_h + stats_h + PAD
 
-    css = f"""
-@keyframes cell {{
-  0%   {{ opacity: 0; transform: translateY(-6px); }}
-  100% {{ opacity: 1; transform: translateY(0); }}
-}}
-.c {{ opacity: 0; animation: cell {CELL_DUR:.2f}s cubic-bezier(.2,.8,.2,1) both; }}
-""".strip()
-
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" height="{canvas_h}" '
         f'viewBox="0 0 {canvas_w} {canvas_h}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
-        f'<style>{css}</style>',
         '<defs>'
         f'<linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">'
         f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient>'
@@ -149,9 +140,14 @@ def render(data):
             delay = ci * COL_T + ri * ROW_T
             plural = "s" if count != 1 else ""
             parts.append(
-                f'<rect class="c" x="{gx}" y="{gy}" width="{CELL}" height="{CELL}" rx="2.5" '
-                f'fill="{PALETTE[lvl]}" style="animation-delay:{delay:.3f}s">'
-                f'<title>{date_s}: {count} contribution{plural}</title></rect>'
+                f'<rect x="{gx}" y="{gy - 6:.1f}" width="{CELL}" height="{CELL}" rx="2.5" '
+                f'fill="{PALETTE[lvl]}" opacity="0">'
+                f'<title>{date_s}: {count} contribution{plural}</title>'
+                f'<animate attributeName="y" from="{gy - 6:.1f}" to="{gy:.1f}" begin="{delay:.3f}s" '
+                f'dur="{CELL_DUR:.2f}s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>'
+                f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.3f}s" '
+                f'dur="{CELL_DUR:.2f}s" fill="freeze"/>'
+                f'</rect>'
             )
 
     # legend: Less [][][][][] More (bottom-right of the grid)

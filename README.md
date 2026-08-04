@@ -13,25 +13,26 @@
 </tr>
 </table>
 
-## Mis-ab Muhammed Unais
+## Mis Ab Muhammed Unais
 
-**Student · AI Enthusiast · Developer**
+**Full Stack Developer · AI Builder · Web Developer**
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-misab1204-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/misab1204)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mis--ab--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mis-ab-m)
-[![Instagram](https://img.shields.io/badge/Instagram-mis__ab.m-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mis_ab.m)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mis-ab-m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mis-ab-m)
+[![Instagram](https://img.shields.io/badge/Instagram-mis_ab.m-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mis_ab.m)
 
 <br>
 
 ### 🛠️ Featured Projects
 
-| Project | Description | Language |
+| Project | Description | Stack / Link |
 | :--- | :--- | :--- |
-| 📦 **[abaya-park-pos-demo](https://github.com/misab1204/abaya-park-pos-demo)** | A POS demonstration project. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| `abaya-park-pos-demo` | Feature-rich POS Program | [Repository](https://github.com/misab1204/abaya-park-pos-demo) |
+| `Abaya Park Storefront` | Production E-Commerce Platform | [abayapark.com](https://abayapark.com) |
 
 <br>
 
 <!-- animated contribution graph, refreshed daily by the workflow -->
-<img src="https://raw.githubusercontent.com/misab1204/misab1204/main/contrib-heatmap.svg" width="860" loading="lazy" alt="GitHub contribution graph" />
+<img src="https://raw.githubusercontent.com/misab1204/misab1204/main/contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
 
 </div>

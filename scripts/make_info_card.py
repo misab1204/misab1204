@@ -59,7 +59,7 @@ ROWS = [
     ("kv", "Cloud", "Firebase, Vercel, Netlify"),
     ("gap",),
     ("sec", "Highlights"),
-    ("bul", "abaya-park-pos-demo — Feature-rich POS Program"),
+    ("bul", "abayapark.com — Production E-Commerce Web Platform (Live)"),
     ("bul", "EmojiFlow — Upcoming project"),
     ("bul", "MeeM — Upcoming project"),
     ("bul", "QuizMakr — Upcoming project"),

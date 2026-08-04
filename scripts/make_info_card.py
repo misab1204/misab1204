@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
 
-W, H = 480, 420
+W, H = 480, 440
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
@@ -59,6 +59,7 @@ ROWS = [
     ("kv", "Cloud", "Firebase, Vercel, Netlify"),
     ("gap",),
     ("sec", "Highlights"),
+    ("bul", "abaya-park-pos-demo — Feature-rich POS Program"),
     ("bul", "abayapark.com — Production E-Commerce Web Platform (Live)"),
     ("bul", "EmojiFlow — Upcoming project"),
     ("bul", "MeeM — Upcoming project"),

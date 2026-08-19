@@ -143,10 +143,10 @@ def render(data):
                 f'<rect x="{gx}" y="{gy - 6:.1f}" width="{CELL}" height="{CELL}" rx="2.5" '
                 f'fill="{PALETTE[lvl]}" opacity="0">'
                 f'<title>{date_s}: {count} contribution{plural}</title>'
-                f'<animate attributeName="y" from="{gy - 6:.1f}" to="{gy:.1f}" begin="{delay:.3f}s" '
-                f'dur="{CELL_DUR:.2f}s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>'
-                f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.3f}s" '
-                f'dur="{CELL_DUR:.2f}s" fill="freeze"/>'
+                f'<animate attributeName="y" values="{gy - 6:.1f}; {gy:.1f}; {gy:.1f}; {gy - 6:.1f}" '
+                f'keyTimes="0; 0.12; 0.95; 1" begin="{delay:.3f}s" dur="10s" repeatCount="indefinite"/>'
+                f'<animate attributeName="opacity" values="0; 1; 1; 0" '
+                f'keyTimes="0; 0.12; 0.95; 1" begin="{delay:.3f}s" dur="10s" repeatCount="indefinite"/>'
                 f'</rect>'
             )
 

@@ -54,7 +54,7 @@ ROWS = [
     ("sec", "Stack"),
     ("kv", "Frontend", "React, Next.js, TypeScript, Tailwind, Framer Motion"),
     ("kv", "Backend", "Node.js, Express, Prisma, Firebase"),
-    ("kv", "Database", "SQLite, PostgreSQL"),
+    ("kv", "Database", "PostgreSQL"),
     ("kv", "AI / ML", "Gemini API, OpenAI"),
     ("kv", "Cloud", "Firebase, Vercel, Netlify"),
     ("gap",),

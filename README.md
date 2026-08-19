@@ -25,7 +25,7 @@
 <h3><code>misab1204@github:~$ cat tech-stack.json</code></h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,postgres,sqlite,python,tailwind,firebase,vercel" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,postgres,python,tailwind,firebase,vercel" alt="Tech Stack" />
 </p>
 
 <br>

@@ -1,17 +1,17 @@
 {
   "username": "misab1204",
-  "generated_at": "2026-08-21T00:37:09Z",
+  "generated_at": "2026-08-22T00:34:32Z",
   "range": {
     "start": "2025-08-17",
-    "end": "2026-08-21"
+    "end": "2026-08-22"
   },
   "total_contributions": 409,
   "active_days": 84,
   "avg_per_active_day": 4.9,
   "current_streak": {
-    "length": 4,
-    "start": "2026-08-17",
-    "end": "2026-08-20"
+    "length": 0,
+    "start": null,
+    "end": null
   },
   "longest_streak": {
     "length": 7,
@@ -1555,6 +1555,10 @@
     },
     {
       "date": "2026-08-21",
+      "count": 0
+    },
+    {
+      "date": "2026-08-22",
       "count": 0
     }
   ]
